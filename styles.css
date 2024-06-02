@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 100vh;
+}
+
+.center{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.book{
+    width: 400px;
+    height:300px;
+    position: relative;
+
+}
+
+.pages{
+    width:100%;
+    height:100%;
+    position: relative;
+
+}
+
+.page{
+    width:380px;
+    height:270px;
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius: 7mm;
+    margin: 0 6px;
+}
+
+.page-side{
+    width:100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-family: poppins;
+    border-radius: 7mm;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-head{
+    width:100%;
+}
+
